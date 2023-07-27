@@ -1,7 +1,8 @@
 import React from 'react'
+import styles from '../test.module.scss'
 
 export default function page() {
   return (
-    <div>page</div>
+    <div className={styles.testblock}>page</div>
   )
 }
